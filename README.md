@@ -45,6 +45,9 @@ cd demo_project
 copy over the profiles.yml file into the demo_project folder!
 This is needed to make sqfluff work. and is best practice in dbt as well!
 
+your folder should now look like this
+![alt text](image.png)
+
 Run the dbt project to see installation and configuration was done correctly
 
 ```bash
