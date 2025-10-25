@@ -1,0 +1,7 @@
+demo_project:  # this must match the profile: in dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ./dev.duckdb  # Creates a local DuckDB file in demo_project
+      threads: 1
