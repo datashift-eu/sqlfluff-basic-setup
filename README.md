@@ -33,6 +33,8 @@ pip install "dbt-core<1.10" dbt-duckdb==1.9.2 sqlfluff==3.5 sqlfluff-templater-d
 
 ```
 
+copy over .sqlfluff in root of your project.
+
 Initialize a new dbt project and select option 1 when asking for 'Which database would you like to use?' (duckdb)
 
 ```bash
@@ -42,10 +44,6 @@ cd demo_project
 
 copy over the profiles.yml file into the demo_project folder!
 This is needed to make sqfluff work. and is best practice in dbt as well!
-
-copy over .sqlfluff in root of your project.
-
-copy over .sqlfluffignore in root of your project
 
 Run the dbt project to see installation and configuration was done correctly
 
