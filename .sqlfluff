@@ -10,12 +10,6 @@ large_file_skip_byte_limit = 0
 max_line_length = 10000
 
 [sqlfluff:templater:dbt]
-# When using the root-level `.sqlfluff` (in `/Users/hakamale/git`), the
-# `project_dir` must point at the actual dbt project directory. `.` would
-# resolve to `/Users/hakamale/git` and make dbt look for
-# `/Users/hakamale/git/dbt_project.yml` which doesn't exist.
-# Set the path relative to this file so dbt finds the demo project's
-# `dbt_project.yml` at `/Users/hakamale/git/sqlfluff-basic-setup/demo_project`.
 project_dir = ./demo_project
 profiles_dir = ./demo_project
 
